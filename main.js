@@ -53,9 +53,20 @@ function makeNegative (number) {
    // Array can contain numbers or strings. X can be either. Return true if the array contains the value, false if not.
    
    // write your function here
-   
+   var color = [ 'green', 'red', 'blue',];
+   var x = 'red';
+
+   function containValue (array, x){
+       if( color.includes(x)){
+       return true
+   }
+   else
+   {
+       return false;
+   }
+}
    // call your function here
-   
+    console.log(containValue([1,2,3]));
    // 4. Bonus Exercise
    // Life isn't always easy as a small word amongst big words. If only they had a code warrior to help them out...
    
